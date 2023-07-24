@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "WMxaaR15is7rKfSMeSCWwCWCNxQ0V89OA5v6UJSfjRM=",
+  "Source": "RazorPagesTutorial",
+  "BasePath": "_content/RazorPagesTutorial",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorPagesTutorial\\wwwroot",
+      "Source": "RazorPagesTutorial",
+      "ContentRoot": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\",
+      "BasePath": "_content/RazorPagesTutorial",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "RazorPagesTutorial",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\",
+      "BasePath": "_content/RazorPagesTutorial",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\favicon.ico",
+      "SourceId": "RazorPagesTutorial",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\",
+      "BasePath": "_content/RazorPagesTutorial",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\Uploads\\e7164e7f-2fdb-4fb2-a2cb-81352213680e.jpg",
+      "SourceId": "RazorPagesTutorial",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\",
+      "BasePath": "_content/RazorPagesTutorial",
+      "RelativePath": "Uploads/e7164e7f-2fdb-4fb2-a2cb-81352213680e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\e7164e7f-2fdb-4fb2-a2cb-81352213680e.jpg"
+    },
+    {
+      "Identity": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\Uploads\\fdd14198-243e-4110-9fd1-abdec71c4393.png",
+      "SourceId": "RazorPagesTutorial",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UIT\\NamHaiUIT\\ASP.NET CORE\\RazorPagesTutorial\\RazorPagesTutorial\\wwwroot\\",
+      "BasePath": "_content/RazorPagesTutorial",
+      "RelativePath": "Uploads/fdd14198-243e-4110-9fd1-abdec71c4393.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\fdd14198-243e-4110-9fd1-abdec71c4393.png"
+    }
+  ]
+}

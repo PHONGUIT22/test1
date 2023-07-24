@@ -1,0 +1,53 @@
+﻿@page
+@model RazorPagesTutorial.Pages.Person.DisplayAllModel
+@{
+}
+<partial name="_Message" />
+<h1>people</h1>
+<a asp-page="Create" class="btn btn-success my-2">
+	Add more
+</a>
+<div>
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>ProfilePicture</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+			<tbody>
+
+				@foreach(var person in Model.People)
+				{
+					<tr>
+						<td>@person.Name</td>
+						<td>@person.Email</td>
+						<td>
+						@if (!string.IsNullOrEmpty(person.ProfilePicture))
+						{
+							<img style="width:150px;height :150px" src="/Uploads/@person.ProfilePicture">
+						}
+						else
+						{
+							<span>NA</span>
+						}
+					</td>
+						<td>
+							<a asp-page="Edit" asp-route-id="@person.Id" class="btn btn-success">
+								Edit
+							</a>
+							<form asp-action="DisplayAll">
+							    <button onclick="return confirm('Are you sure??')" asp-page-handler="Delete" asp-route-id="@person.Id" class="btn btn-danger">
+							 	    Delete
+							    </button>
+							</form>
+							
+						</td>
+					</tr>
+				}
+			</tbody>
+		
+	</table>
+</div>
